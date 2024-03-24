@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    text-decoration: orange underline wavy;
+    letter-spacing: 10px;
+    font-size: 60px;
+}
+
+p {
+    line-height: 1.5;
+}

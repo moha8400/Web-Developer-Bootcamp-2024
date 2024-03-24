@@ -1,0 +1,76 @@
+<!-- required first name and last name 
+
+select 3 radio buttons 
+email type input and required
+
+age group drop down  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race registration</title>
+</head>
+
+<body>
+
+    <h1>Race Registration!</h1>
+    <hr>
+    <br>
+    <form action="/dummy">
+
+        <div>
+            <label for="Firstname">First Name</label>
+            <input type="text" id="Firstname" required>
+            <label for="Lastname">Last Name</label>
+            <input type="text" id="Lastname" required>
+
+        </div>
+
+
+        <h2>Select a race:</h2>
+
+        <div>
+            <input type="radio" id="5k" name="roption" value="5k">
+            <label for="5k">Fun Run 5k</label>
+        </div>
+        <div>
+            <input type="radio" id="half" name="roption" value="half">
+            <label for="half">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" id="full" name="roption">
+            <label for="full">Full Marathon</label>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="epassword">Password</label>
+            <input type="password" id="epassword" required>
+        </div>
+
+        <div>
+            <label for="age">Select Age group</label>
+            <select name="age" id="age">
+                <option value="">Select age</option>
+                <option value="0-18">0-18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-60">30-60</option>
+
+
+            </select>
+        </div>
+        <button>Submit</button>
+        </div>
+
+
+    </form>
+
+
+</body>
+
+</html>
