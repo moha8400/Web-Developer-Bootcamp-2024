@@ -7,6 +7,8 @@ div {
 h1 {
     background-color: pink;
     width: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
 }
 
 #one {
@@ -29,4 +31,10 @@ h1 {
 #three {
     background-color: #4cc9f0;
     border: 4px solid black;
+    padding-right: 50px;
+
+}
+
+button {
+    padding: 10px 20px;
 }
